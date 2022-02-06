@@ -9,9 +9,12 @@
     Aplicação para contar dias, horas, minutos e segundos
        <br />
     <br />
+  <a href="https://countdown-brl.netlify.app/">Site</a>
+  ·
     <a href="https://github.com/Lorenalgm/contador">Desafio</a>
     ·
     <a href="https://www.linkedin.com/in/lorenagmontes/">Contato do desafiador</a>
+    ·
     <a href="https://www.linkedin.com/in/rafael-henrique-silva-de-almeida-a396bb22b/">Contato do desafiado :)</a>
   </p>
 </p>
