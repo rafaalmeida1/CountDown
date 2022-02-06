@@ -1,0 +1,133 @@
+:root {
+    --green: #21EB00;
+    --gray: rgb(43, 40, 40);
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    padding: 150px;
+    top: 50%;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+#titlePrincipal {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--green);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+#dateInput {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    width: 350px;
+    height: 60px;
+    padding: 20px;
+    color: gray;
+    background-color: var(--gray);
+    display: block;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.styleDate::-webkit-inner-spin-button,
+.styleDate::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+#startCounting {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 60px;
+    background-color: var(--green);
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#startCounting:hover {
+    cursor: pointer;
+}
+
+
+/*css do contador*/
+
+.countdown{
+    display: none;
+}
+
+#contador {
+    display: inline-block;
+    padding: 30px;
+    color: var(--green);
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#titleSecondary{
+    color: var(--gray);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+}
+
+#reiniciar {
+    margin: 30px;
+    padding: 10px;
+    width: 200px;
+    float: right;
+    right: 0px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 28px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: var(--green);
+}
+
+#reiniciar:hover {
+    cursor: pointer;
+}
+
+
+.time {
+    
+    text-align: center;
+    padding-right: 150px
+}
+
+li {
+    color: var(--green);
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+#dias, #horas, #minutos, #segundos {
+    color: white;
+    font-size: 70px;
+    display: block;
+}
