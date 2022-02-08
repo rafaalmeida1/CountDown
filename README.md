@@ -19,20 +19,6 @@
   </p>
 </p>
 
-## Índice
-
-* [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
-* [Techs](#techs)
-* [Como começar](#como-começar)
-* [Dicas](#dicas)
-  * [Cores](#cores)
-  * [Modelo](#modelo)  
-  * [Tipo de fonte](#tipo-de-fonte)
-* [Compartilhe](#compartilhe)
-
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador!
 
 # Desafio
 Meu desafio foi criar um contador (com dias, horas, minutos e segundos), a partir de uma data definida pelo usuário!
